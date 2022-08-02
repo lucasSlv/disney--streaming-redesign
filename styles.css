@@ -1,0 +1,131 @@
+/*  Wallpaper */
+
+body {
+    background-image: url(./images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+/* SHARED */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+/* Page style */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4.5rem;
+}
+
+/* Left Content Styles */
+
+.c-movie {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-imdb {
+    display: flex;
+    gap: 1.8rem;
+    margin-top: 14.1rem;
+}
+
+.c-imdb p {
+    font-weight: var(--weight-heavy);
+    font-size: var(--small);
+}
+
+.c-info-movie {
+    margin-top: 1.3rem;
+}
+
+
+.c-info-movie p {
+    font-size: var(--small);
+    font-weight: var(--weight-light);
+    flex-wrap: wrap;
+    max-width: 30rem;
+}
+
+.btn-play {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.3rem;
+    background: var(--blue);
+    width: 25.0rem;
+    height: 7.0rem;
+    border-radius: 4.0rem;
+}
+
+.btn-play a {
+    display: flex;
+    margin-top: 2.3rem;
+    gap: 3.1rem;
+    text-decoration: none;
+}
+
+.btn-play p {
+    font-size: var(--small);
+    font-weight: var(--weight-medium);
+}
+
+.btn-play img {
+    width: 2.2rem;
+    height: 2.4rem;
+}
+
+/* Right Content Styles */
+
+.aaa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title-scroll-movies {
+    display: flex;
+    margin-top: 4.5rem;
+    color: var(--white);
+    font-size: var(--medium);
+    font-weight: var(--weight-big);
+}
+
+
+.c-scroll-movies {
+    margin-top: 1.0rem;
+    overflow-y: auto;
+    max-height: 70.5rem;
+}
+
+.c-scroll-movies ul {
+    list-style: none;
+}
+
+.c-scroll-movies li {
+    margin: 1.0rem 2.8rem 2.8rem 0rem;
+}
+
+.c-scroll-movies img {
+    border-radius: 0.8rem;
+}
+
+.c-scroll-movies::-webkit-scrollbar {
+    background-color: var(--transparent);
+    width: 0.5rem;
+}
+
+.c-scroll-movies::-webkit-scrollbar-thumb {
+    background-color: var(--white);
+    height: 7.452rem;
+    border-radius: 0.5rem;
+}
